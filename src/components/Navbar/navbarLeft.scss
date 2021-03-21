@@ -20,9 +20,14 @@ nav {
 
 
 .left {
+
     padding-bottom: 20px;
     display: flex;
     align-items: flex-end;
+    .link {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+    }
 }
 
 span {

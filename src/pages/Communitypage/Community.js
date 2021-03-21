@@ -41,10 +41,10 @@ export const Community = () => {
                 <div className="rightcolumn">
                     <div className="card">
                     <h3>Trending</h3>
-                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
-                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
-                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
-                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
+                    <div className="pop-post"><div>Heading</div>Lorem ipsum dolor sit amet, an his etiam torquatos</div>
+                    <div className="pop-post"><div>Heading</div>Lorem ipsum dolor sit amet, an his etiam torquatos</div>
+                    <div className="pop-post"><div>Heading</div>Lorem ipsum dolor sit amet, an his etiam torquatos</div>
+                    <div className="pop-post"><div>Heading</div>Lorem ipsum dolor sit amet, an his etiam torquatos</div>
                     </div>
                 </div>
             </div>
