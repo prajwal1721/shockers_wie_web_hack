@@ -1,18 +1,11 @@
 export const WhatNew = [
     {
-        imgUrl: 'https://www.gstatic.com/webp/gallery3/1.png',
-        text: 'AmongUS'
+        imgUrl: 'https://i.pinimg.com/736x/66/4a/8c/664a8cf3c48ac1c98303d99bac16962d.jpg',
+        text: 'Stand My Heroes'
     },
     {
-        imgUrl: 'https://www.gstatic.com/webp/gallery3/1.png',
-        text: 'AmongUS'
+        imgUrl: 'https://wallpapercave.com/wp/wp5277659.jpg',
+        text: 'Prince Drag and Princess Matri',
     },
-    {
-        imgUrl: 'https://www.gstatic.com/webp/gallery3/1.png',
-        text: 'AmongUS'
-    },
-    {
-        imgUrl: 'https://www.gstatic.com/webp/gallery3/1.png',
-        text: 'AmongUS'
-    },
+
 ]
