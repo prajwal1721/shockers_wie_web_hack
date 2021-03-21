@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './Community.scss';
 export const Community = () => {
     return (
         <div>
             <div className="header">
-                <h2>Blog Name</h2>
+                <h2>Tell Us Everything</h2>
             </div>
 
             <div className="row">
@@ -22,21 +22,16 @@ export const Community = () => {
                         <p>Some text..</p>
                     </div>
                 </div>
-            </div>
-            <div className="rightcolumn">
-                <div className="card">
-                    <h2>About Me</h2>
-                    <div className="fakeimg" style={{ "height": "100px" }}>Image</div>
-                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                </div>
-                <div className="card">
-                    <h3>Popular Post</h3>
-                    <div className="fakeimg">Image</div><br />
-                    <div className="fakeimg">Image</div><br />
-                    <div className="fakeimg">Image</div>
+            
+                <div className="rightcolumn">
+                    <div className="card">
+                        <h3>Popular Post</h3>
+                        <div className="fakeimg">Image</div><br />
+                        <div className="fakeimg">Image</div><br />
+                        <div className="fakeimg">Image</div>
+                    </div>
                 </div>
             </div>
-
             <div className="card">
                 <h3>Follow Me</h3>
                 <p>Some text..</p>
