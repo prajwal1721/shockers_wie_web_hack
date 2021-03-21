@@ -2,6 +2,7 @@ import { NavbarLeft } from './components/Navbar/navbarLeft';
 import { HomePage } from './pages/homepage/homepage';
 import { useState } from 'react';
 import './App.css';
+import { AboutUsPage } from './pages/AboutUsPage/aboutuspage';
 import { Community } from './pages/Communitypage/Community';
 import { createBrowserHistory } from "history";
 import { Router, Redirect, Route, Switch } from 'react-router-dom';
@@ -16,7 +17,7 @@ function App() {
           <Route path='/community' exact component={Community} />
           <Route path='/whatsnew' exact component={HomePage} />
           <Route path='/products' exact component={HomePage} />
-          <Route path='/about' exact component={HomePage} />
+          <Route path='/about' exact component={AboutUsPage} />
           <Route path='/' exact component={HomePage} />
 
         </Switch>

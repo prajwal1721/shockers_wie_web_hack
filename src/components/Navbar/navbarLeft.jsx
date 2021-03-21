@@ -8,13 +8,17 @@ export const NavbarLeft = () => {
 
     return (
 
-        <nav>
-            {data.map(i =>
-                <span onClick={() => console.log(i.label)} key={i.label}>
-                    {/* {<Link to={i.to} key={i.label}>{i.label}</Link>} */}
-                    {i.label}
-                </span>)
-            }
+        <nav >
+            <div className='logo'></div>
+            <div className="left">
+                {data.map(i =>
+                    <span onClick={() => console.log(i.label)} key={i.label}>
+                        {/* {<Link to={i.to} key={i.label}>{i.label}</Link>} */}
+                        {i.label}
+                    </span>)
+                }
+            </div>
+
         </nav >
 
     )
