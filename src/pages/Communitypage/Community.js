@@ -1,6 +1,9 @@
 import React from 'react';
 import './Community.scss';
 import img from '../../assets/img.jpg';
+import img2 from '../../assets/img2.jpg';
+import img3 from '../../assets/img3.jpg';
+
 export const Community = () => {
     return (
         <div>
@@ -13,38 +16,41 @@ export const Community = () => {
 
             <div className="row">
                 <div className="leftcolumn">
-                    <div className="card">
-                        <h2>TITLE HEADING</h2>
-                        <h5>Title description, Dec 7, 2017</h5>
-                        <div className="fakeimg" style={{ "height": "200px" }}>Image</div>
-                        <p>Some text..</p>
+                    <div class="container">
+                        <img src={img2} alt="Notebook" style={{"width":"100%"}}/>
+                        <div class="content">
+                            <h1>Heading</h1>
+                            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+                        </div>
                     </div>
-                    <div className="card">
-                        <h2>TITLE HEADING</h2>
-                        <h5>Title description, Sep 2, 2017</h5>
-                        <div className="fakeimg" style={{ "height": "200px" }}>Image</div>
-                        <p>Some text..</p>
+                    <div class="container">
+                        <img src={img3} alt="Notebook" style={{"width":"100%"}}/>
+                        <div class="content">
+                            <h1>Heading</h1>
+                            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img src={img2} alt="Notebook" style={{"width":"100%"}}/>
+                        <div class="content">
+                            <h1>Heading</h1>
+                            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+                        </div>
                     </div>
                 </div>
-            
                 <div className="rightcolumn">
                     <div className="card">
-                        <h3>Popular Post</h3>
-                        <div className="fakeimg">Image</div><br />
-                        <div className="fakeimg">Image</div><br />
-                        <div className="fakeimg">Image</div>
+                    <h3>Trending</h3>
+                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
+                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
+                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
+                    <div className="pop-post">Heading <span>Lorem ipsum dolor sit amet, an his etiam torquatos</span></div>
                     </div>
                 </div>
             </div>
-            <div className="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-            </div>
-
-
 
             <div class="footer">
-                <h2>Footer</h2>
+                <h2>Made by Shockers</h2>
             </div>
         </div>
     )

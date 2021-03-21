@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background: #f1f1f1;
+    background: #1d1b1b;
   }
 //   style={{backgroundImage:`url(${img  })`}}
   /* Header/Blog Title */
@@ -9,6 +9,7 @@ body {
     position: relative;
     width: 100%; /* Maximum width */
     margin: 0 auto; /* Center it */
+    margin-bottom: 2rem;
   }
   
   .header1 .content {
@@ -26,7 +27,26 @@ body {
     float: left;
     width: 73%;
   }
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 3rem auto;
+}
   
+.container img {
+      vertical-align: middle;
+}
+  
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+}
+
   /* Right column */
   .rightcolumn {
     float: left;
@@ -34,17 +54,18 @@ body {
     padding-left: 1rem;
   }
   
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-  }
-  
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    background-color: rgb(14, 13, 14);
+    border: 2px solid purple;
+    border-radius: 10px;
     padding: 20px;
-    margin-top: 20px;
+    margin: 3rem auto;
+    color: seashell;
+  }
+
+  .pop-post{
+      padding: 2rem ;
   }
   
   /* Clear floats after the columns */
@@ -58,7 +79,8 @@ body {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #000000;
+    color: beige;
     margin-top: 20px;
   }
   
