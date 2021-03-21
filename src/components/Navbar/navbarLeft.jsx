@@ -12,7 +12,7 @@ export const NavbarLeft = () => {
             <Link to='/'><img src={imgUrl} className='logo' /></Link>
             <div className="left">
                 {data.map(i =>
-                    <span onClick={() => console.log(i.label)} key={i.label}>
+                    <span className="link" onClick={() => console.log(i.label)} key={i.label}>
                         {<Link to={i.to} key={i.label}>{i.label}</Link>}
                     </span>)
                 }

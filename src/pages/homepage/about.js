@@ -13,7 +13,7 @@ export const About = () => {
                 </div>
                 <div className='right'>
                     <div className='inner-right'>
-                        <img src={p2}
+                        <img className='img1' src={p2}
                             alt="Owner1" />
                         <span className='author'>{`Anna Nakajima`}</span>
                     </div>
