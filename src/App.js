@@ -5,6 +5,7 @@ import './App.css';
 import { AboutUsPage } from './pages/AboutUsPage/aboutuspage';
 import { Community } from './pages/Communitypage/Community';
 import { createBrowserHistory } from "history";
+import { WhatsNewPage } from './pages/WhatsNewPage/whatsnewpage';
 import { Router, Redirect, Route, Switch } from 'react-router-dom';
 const hist = createBrowserHistory();
 function App() {
@@ -15,13 +16,14 @@ function App() {
 
         <Switch>
           <Route path='/community' exact component={Community} />
-          <Route path='/whatsnew' exact component={HomePage} />
-          <Route path='/products' exact component={HomePage} />
+          <Route path='/whatsnew' exact component={WhatsNewPage} />
+
           <Route path='/about' exact component={AboutUsPage} />
           <Route path='/' exact component={HomePage} />
 
         </Switch>
 
+        <footer >Made by Shockers</footer>
       </div>
     </Router>
   );

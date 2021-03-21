@@ -1,0 +1,29 @@
+.head {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .heading {
+        font-size: 45px;
+    }
+
+    .inner1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    .card {
+        margin: 30px;
+        height: 171px;
+        width: 335px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        font-size: 34px;
+        align-items: baseline;
+        text-align: center;
+        color: rgb(245, 178, 91);
+        text-shadow: 2px 2px black;
+    }
+}

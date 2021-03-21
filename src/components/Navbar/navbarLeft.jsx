@@ -2,19 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbarLeft.scss';
 import { data } from './data';
-import { isXMLDoc } from 'jquery';
+import imgUrl from '../../assets/logo.png';
 
 export const NavbarLeft = () => {
 
     return (
 
         <nav >
-            <div className='logo'></div>
+            <Link to='/'><img src={imgUrl} className='logo' /></Link>
             <div className="left">
                 {data.map(i =>
                     <span onClick={() => console.log(i.label)} key={i.label}>
-                        {/* {<Link to={i.to} key={i.label}>{i.label}</Link>} */}
-                        {i.label}
+                        {<Link to={i.to} key={i.label}>{i.label}</Link>}
                     </span>)
                 }
             </div>

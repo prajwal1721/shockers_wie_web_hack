@@ -1,7 +1,7 @@
 export const data = [
     {
         label: `What's New`,
-        to: '/new'
+        to: '/whatsnew'
     },
     {
         label: `About`,
