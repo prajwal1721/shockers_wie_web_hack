@@ -1,11 +1,15 @@
 import React from 'react';
 import './Community.scss';
+import img from '../../assets/img.jpg';
 export const Community = () => {
     return (
         <div>
-            <div className="header">
-                <h2>Tell Us Everything</h2>
-            </div>
+            <div className="header1">
+                <img src={img} alt="Notebook" style={{"width":"100%"}}/>
+                <div className="content">
+                    <h1>Tell Us Everything</h1>
+                </div>
+            </div> 
 
             <div className="row">
                 <div className="leftcolumn">
