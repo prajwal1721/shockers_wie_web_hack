@@ -16,7 +16,7 @@ export const About = () => {
                 </div>
                 <div>
                     <img src="https://www.gstatic.com/webp/gallery3/1.png"
-                        alt="Owner1" />
+                        alt="Owner2" />
                     <span>{`NAme`}</span>
                 </div>
             </div>

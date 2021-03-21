@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { About } from './about';
 import { WhatsNew } from './whatsnew';
+import vid from '../../assets/vid.mp4'
 export const HomePage = () => {
     return (
         <div>
-            <iframe _ngcontent-c12="" class="ng-tns-c12-3" bnresponsivevideo="" frameborder="0" src={`https://player.vimeo.com/video/522077754?background=true&amp;autopause=0`} style={{
-                "width": "1309px", "height": "736px", "data - ready":
-                    true
-            }}></iframe>
+            <iframe _ngcontent-c12="" class="ng-tns-c12-3" bnresponsivevideo="" frameborder="0" src={`${vid}?autoplay=1&controls=0&loop=0`} style={{
+                "width": "1309px", "height": "736px", "data - ready": true
+            }} allowFullScreen="true" controls="false"></iframe>
             <About />
             <WhatsNew />
             <div>
@@ -17,6 +17,6 @@ export const HomePage = () => {
 
             </div>
 
-        </div>
+        </div >
     )
 }
