@@ -4,7 +4,7 @@ import './navbarLeft.scss';
 import { data } from './data';
 import imgUrl from '../../assets/logo.png';
 
-export const NavbarLeft = () => {
+export const NavbarLeft = ({ user }) => {
 
     return (
 
@@ -13,6 +13,7 @@ export const NavbarLeft = () => {
             <div className="left">
                 {data.map(i =>
                     <span className="link" onClick={() => console.log(i.label)} key={i.label}>
+
                         {<a className='link' href={i.to} key={i.label}>{i.label}</a>}
                     </span>)
                 }

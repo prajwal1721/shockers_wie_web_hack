@@ -24,7 +24,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-            <Link className="button" to='/about'>Read more..</Link>
+            {/* <Link className="button" to='/about'>Read more..</Link> */}
         </div >
     )
 }

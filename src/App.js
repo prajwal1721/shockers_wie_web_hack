@@ -10,10 +10,11 @@ import { WhatsNewPage } from './pages/WhatsNewPage/whatsnewpage';
 import { Router, Redirect, Route, Switch } from 'react-router-dom';
 const hist = createBrowserHistory();
 function App() {
+  const [user, setUser] = useState('');
   return (
-    <Router history={hist}>
+    < Router history={hist} >
       <div className="App">
-        <NavbarLeft />
+        <NavbarLeft user />
 
         <Switch>
           <Route path='/community' exact component={Community} />
@@ -26,7 +27,7 @@ function App() {
 
         <footer >Made by Shockers</footer>
       </div>
-    </Router>
+    </Router >
   );
 
 }
