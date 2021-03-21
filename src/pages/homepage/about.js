@@ -20,7 +20,7 @@ export const About = () => {
                     <div className="inner-right">
                         <img className='img1' src={p1}
                             alt="Owner2" />
-                        <span>{`Mizuki Nakajima`}</span>
+                        <span className='author'>{`Mizuki Nakajima`}</span>
                     </div>
                 </div>
             </div>
