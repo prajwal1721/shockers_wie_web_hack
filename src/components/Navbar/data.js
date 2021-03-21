@@ -10,5 +10,9 @@ export const data = [
     {
         label: `Community`,
         to: `/community`
+    },
+    {
+        label: `Login`,
+        to: `/login`
     }
 ]

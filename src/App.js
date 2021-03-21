@@ -5,6 +5,7 @@ import './App.css';
 import { AboutUsPage } from './pages/AboutUsPage/aboutuspage';
 import { Community } from './pages/Communitypage/Community';
 import { createBrowserHistory } from "history";
+import { Signin } from './components/Signin/signin';
 import { WhatsNewPage } from './pages/WhatsNewPage/whatsnewpage';
 import { Router, Redirect, Route, Switch } from 'react-router-dom';
 const hist = createBrowserHistory();
@@ -17,7 +18,7 @@ function App() {
         <Switch>
           <Route path='/community' exact component={Community} />
           <Route path='/whatsnew' exact component={WhatsNewPage} />
-
+          <Route path='/login' exact component={Signin} />
           <Route path='/about' exact component={AboutUsPage} />
           <Route path='/' exact component={HomePage} />
 
